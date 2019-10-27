@@ -1,19 +1,57 @@
-# building-a-multibranch-pipeline-project
 
-This repository is for the
-[Build a multibranch Pipeline project](https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
 
-This tutorial uses the same application that the [Build a Node.js and React app
-with
-npm](https://jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/)
-tutorial is based on. Therefore, you'll be building and testing the same
-application but this time, its delivery will be different depending on the Git
-branch that Jenkins builds from. That is, the branch being built determines
-which delivery stage of your Pipeline is executed.
+安装好后第一次访问
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial and the `scripts` subdirectory
-contains shell scripts with commands that are executed when Jenkins processes
-either the "Deliver for development" or "Deploy for production" stages of your
-Pipeline (depending on the branch that Jenkins builds from).
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g823105hl4j314x0u07a0.jpg)
+
+安装推荐的插件
+
+![image-20191018091241074](/Users/kuankuan/Library/Application Support/typora-user-images/image-20191018091241074.png)
+
+创建登录账户
+
+![image-20191018095752340](/Users/kuankuan/Library/Application Support/typora-user-images/image-20191018095752340.png)
+
+创建任务
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-24-025509.jpg)
+
+
+
+需要安装这么多？
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-24-031513.jpg)
+
+
+
+创建pipeline
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-24-090633.jpg)
+
+为jenkins 访问 github 生成一个 token
+
+![image-20191024170932236](/Users/kuankuan/Library/Application Support/typora-user-images/image-20191024170932236.png)
+
+
+
+![image-20191024171040802](/Users/kuankuan/Library/Application Support/typora-user-images/image-20191024171040802.png)
+
+提示遇到docker: not found
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-24-095739.jpg)
+
+
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-25-021617.jpg)
+
+
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-25-024848.jpg)
+
+
+
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-25-025146.jpg)
+
+终于显示构建成功
+
+![image-20191025105754597](/Users/kuankuan/Library/Application Support/typora-user-images/image-20191025105754597.png)
