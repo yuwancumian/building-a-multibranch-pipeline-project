@@ -82,7 +82,7 @@ pipeline 的语法稍后研究，这里先看看怎么能方便快捷的用jenki
 
 然后新建一个freestyle project 的jenkins 任务，仍然选择jenkins 官方提供的repo，在execute shell 里配置简单的node任务
 
-![image-20191028085659228](/Users/kuankuan/Library/Application Support/typora-user-images/image-20191028085659228.png)
+![](http://tchuang.oss-cn-chengdu.aliyuncs.com/2019-10-28-005654.jpg)
 
 进入刚才建立的jenkins 任务，在左侧菜单里点击 build with parameters ，
 
